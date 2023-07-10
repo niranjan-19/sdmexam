@@ -1,6 +1,6 @@
 FROM node 
 WORKDIR /src
 COPY . .
-EXPOSE 7002
+EXPOSE 7008
 CMD node server.js
 

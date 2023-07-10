@@ -86,7 +86,7 @@ app.put('/employees/:id', (req, res) => {
 });
 
 // Start the server
-const port = 7002;
+const port = 7008;
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
